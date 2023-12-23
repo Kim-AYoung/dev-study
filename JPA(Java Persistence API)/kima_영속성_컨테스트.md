@@ -11,7 +11,7 @@
 4. 변경 감지 (dirty check) : 트랜잭션을 커밋하는 순간, 영속성 컨텍스트에 있는 엔티티의 변경 내용을 DB에 반영한다. (=FLUSH)
 
 ## Entity Life Cycle
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f7c7d94-2077-4bed-be72-b35a19aed2e6/Untitled.png)
+![Entity Life Cycle](https://github.com/Kim-AYoung/dev-study/assets/57066971/9eed7904-a8bf-40af-8f41-226951bd1aa0)
 * 비영속(new/transient) : 영속성 컨텍스트와 전혀 관계가 없는 상태
 * 영속(managed) : 영속성 컨텍스트에 저장된 상태
   * `detach()` : 영속상태의 엔티티를 영속성 컨텍스트에서 분리
